@@ -1,1 +1,4 @@
-TODO: write about me
+---
+layout: home
+author_profile: true
+---

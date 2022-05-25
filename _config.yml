@@ -1,10 +1,80 @@
 
 title: "Lauris Jullien"
 author: "Lauris Jullien"
-description: "Thoughts & Articles" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+description: "Thoughts & Articles" 
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
 email: "lauris.jullien@telecom-paristech.org"
 linkedin_username: "laurisjullien"
-theme: minima
+
+# Build settings
+minimal_mistakes_skin: dark
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: DE
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+
+author:
+  name   : "Lauris Jullien"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "My awesome biography constrained to a sentence or two goes here."
+  links:
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/laurisjullien/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/laucia"
+
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/laurisjullien/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/laucia"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
