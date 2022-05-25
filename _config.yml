@@ -32,11 +32,11 @@ plugins:
 
 author:
   name   : "Lauris Jullien"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/goat.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/laurisjullien/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -46,7 +46,7 @@ author:
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/laurisjullien/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
