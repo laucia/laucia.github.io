@@ -55,7 +55,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: "_articles"
+      path: ""
       type: posts
     values:
       layout: single
