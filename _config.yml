@@ -1,7 +1,7 @@
 
 title: "Lauris Jullien"
 author: "Lauris Jullien"
-description: "Thoughts & Articles" 
+description: "Thoughts & Articles on Data Engineering, ML & MLOps!"
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
@@ -33,7 +33,7 @@ plugins:
 author:
   name   : "Lauris Jullien"
   avatar : "/assets/images/goat.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "I like to write beautiful software, that solves people's problem and is easy to use. And then talk about it!"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
